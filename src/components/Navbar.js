@@ -4,14 +4,14 @@ import "./Navbar.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
-  {
-    /* function that reverses state*/
-  }
+  /*const [button, setButton] = useState(true);*/
+
+  /* function that reverses state*/
+
   const handleClick = () => setClick(!click);
-  {
-    /*function that says if clicked on close mobile menu*/
-  }
+
+  /*function that says if clicked on close mobile menu*/
+
   const closeMobileMenu = () => setClick(false);
 
   /*const showButton = () => {
@@ -23,9 +23,8 @@ function Navbar() {
   };
   */
 
-  {
-    /*whenever we resize the screen we want showButton to work*/
-  }
+  /*whenever we resize the screen we want showButton to work*/
+
   /*window.addEventListener("resize", showButton);*/
   return (
     <>
