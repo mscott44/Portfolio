@@ -5,7 +5,6 @@ video {
   position: fixed;
   /*stack order*/
   z-index: -1;
-  playbackrate: -1;
 }
 
 .main-container {
@@ -20,7 +19,7 @@ video {
 }
 
 .main-container > h1 {
-  color: white;
+  color: pink;
   font-size: 60px;
   margin-top: -100px;
 }
@@ -28,4 +27,16 @@ video {
 .main-container > p {
   margin-top: 8px;
   color: white;
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.main-btns {
+  margin-top: 32px;
+}
+
+.main-btns:hover {
+  background-color: pink;
+  transition: all 0.3s ease-out;
 }
