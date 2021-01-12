@@ -5,6 +5,7 @@ import "./App.css";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Projects from "./components/pages/Projects";
+import OnTheBlock from "./components/pages/OnTheBlock";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/about" exact component={About} />
           <Route path="/projects" exact component={Projects} />
+          <Route path="/onthebloc" exact component={OnTheBlock} />
         </Switch>
       </Router>
     </>

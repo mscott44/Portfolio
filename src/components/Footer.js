@@ -30,7 +30,7 @@ function Footer() {
           </div>
         </div>
       </section>
-      <small className="website-rights"> The Hub © 2020</small>
+      <small className="website-rights"> The Center © 2020</small>
     </div>
   );
 }

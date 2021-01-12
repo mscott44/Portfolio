@@ -1,11 +1,11 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import Button from "react-bootstrap/Button";
 /*passing in properties from Cards*/
 function CardItem(props) {
   return (
     <>
       <li className="cards__item">
-        <Link className="cards__item__link" to={props.path}>
+        <div className="cards__item__link">
           <div className="cards__title">
             <h1> {props.title} </h1>
           </div>
@@ -15,7 +15,10 @@ function CardItem(props) {
           <div className="cards__item__info">
             <h5 className="cards__item__text">{props.text}</h5>
           </div>
-        </Link>
+          <div>
+            <Button variant="primary">{props.web}</Button>
+          </div>
+        </div>
       </li>
     </>
   );
