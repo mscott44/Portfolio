@@ -39,12 +39,13 @@
   color: black;
   transition: all 0.3s ease-out;
 }
-
-.projects--button {
-  padding: 8px 20px;
-  border-radius: 2px;
-  outline: none;
-  border: none;
-  cursor: pointer;
+.pro--button {
   background-color: dodgerblue;
+  color: white;
+  font-size: 15px;
+}
+
+.button__container {
+  padding-left: 12rem;
+  padding-top: 1rem;
 }

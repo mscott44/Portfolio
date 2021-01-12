@@ -1,5 +1,7 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
+import "./Button.css";
+
 /*passing in properties from Cards*/
 function CardItem(props) {
   return (
@@ -14,9 +16,11 @@ function CardItem(props) {
           </figure>
           <div className="cards__item__info">
             <h5 className="cards__item__text">{props.text}</h5>
-          </div>
-          <div>
-            <Button variant="primary">{props.web}</Button>
+            <div className="button__container">
+              <a href={props.href}>
+                <Button className="pro--button">{props.web}</Button>
+              </a>
+            </div>
           </div>
         </div>
       </li>

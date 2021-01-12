@@ -84,14 +84,14 @@
     position: absolute;
     top: 80px;
     left: -100%;
-    opacity: 1;
+    opacity: 5;
     transition: all 0.5s ease;
   }
 
   .nav-menu.active {
     background: #242222;
     left: 0;
-    opacity: 1;
+    opacity: 5;
     transition: all 0.5s ease;
     z-index: 1;
   }
@@ -104,8 +104,8 @@
   }
 
   .nav-links:hover {
-    background-color: #fff;
-    color: #242424;
+    background-color: pink;
+    color: white;
     border-radius: 0;
   }
 
@@ -147,7 +147,7 @@
   }
 
   .nav-links-mobile:hover {
-    background: #fff;
+    background: white;
     color: #242424;
     transition: 250ms;
   }
