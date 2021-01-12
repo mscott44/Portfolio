@@ -32,3 +32,11 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.about-text {
+  text-align: center;
+  margin-top: 10rem;
+  color: black;
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
