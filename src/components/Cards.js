@@ -24,6 +24,7 @@ function Cards() {
               text="An app built with two other members of the CSSI program, implementing HTML, Python, JavaScript, and CSS. This app allowed college students to have easy access to their peers social calendars to make planning social outing events easier.
               "
               label="Created in 2018"
+              web="Link Unavailable"
             />
           </ul>
         </div>
