@@ -16,8 +16,9 @@ function About() {
           through technology. The satisfaction of seeing designs come to life
           almost instantly, is unbeatable. There is no better feeling then to
           look at a finished product and know that it all started with one line
-          of code and an image in mind. As of now I only have two projects to
-          show, but as I progress I hope to have tons more.
+          of code and an image in mind. As of now, I only have three projects to
+          show, one of them being this portfolio site. However, as I progress I
+          hope to have tons more!
         </p>
       </div>
       <p className="about-adios"> Let's Get Innovative! </p>
