@@ -22,6 +22,7 @@ video {
   color: pink;
   font-size: 60px;
   margin-top: -100px;
+  font-family: "Fjalla One", sans-serif;
 }
 
 .main-container > p {
