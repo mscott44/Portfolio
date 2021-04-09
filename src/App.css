@@ -22,8 +22,24 @@
 }
 
 .daily-ui {
-  margin-top: 53rem;
-  position: absolute;
+  font-family: "Fjalla One", sans-serif;
+  margin-left: 37rem;
+  margin-top: 5rem;
+}
+.p {
+  margin-bottom: 1rem;
+}
+.daily-ui-p {
+  font-family: "Fjalla One", sans-serif;
+  text-align: center;
+  display: flex;
+  margin-left: 28rem;
+}
+
+.coding {
+  font-family: "Fjalla One", sans-serif;
+  margin-left: 37rem;
+  margin-top: 5rem;
 }
 
 .about {
@@ -47,6 +63,7 @@
   margin-left: 10rem;
   margin-right: 10rem;
 }
+
 .about-adios {
   text-align: center;
   padding-top: 5rem;
