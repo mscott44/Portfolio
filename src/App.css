@@ -23,8 +23,9 @@
 
 .daily-ui {
   font-family: "Fjalla One", sans-serif;
-  margin-left: 37rem;
+  /* margin-left: 37rem; */
   margin-top: 5rem;
+  text-align: center;
 }
 .p {
   margin-bottom: 1rem;
@@ -33,13 +34,14 @@
   font-family: "Fjalla One", sans-serif;
   text-align: center;
   display: flex;
-  margin-left: 28rem;
+  margin-left: 37rem;
 }
 
 .coding {
   font-family: "Fjalla One", sans-serif;
-  margin-left: 37rem;
+  /* margin-left: 37rem; */
   margin-top: 5rem;
+  text-align: center;
 }
 
 .about {
@@ -69,4 +71,49 @@
   padding-top: 5rem;
   font-size: 30px;
   color: rgb(189, 100, 115);
+}
+
+.slider {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image {
+  width: 400px;
+  height: 750px;
+  border-radius: 10px;
+}
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: black;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: black;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
 }

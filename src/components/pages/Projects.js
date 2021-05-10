@@ -2,6 +2,8 @@ import React from "react";
 import Cards from "../Cards";
 import "../../App.css";
 import "../Images.css";
+import ImageSlider from "../ImageSlider";
+import { SliderData } from "../SliderData";
 
 function Projects() {
   return (
@@ -14,11 +16,13 @@ function Projects() {
           Showcasing a few of my Daily UI Designs! Designed on Figma{" "}
         </p>
       </div>
-      <div className="images">
+      <ImageSlider slides={SliderData} />
+
+      {/* <div className="images">
         <img className="ui-image1" src="/images/dms.png" alt="" />{" "}
         <img className="ui-image2" src="/images/landingPage.png" alt="" />
         <img className="ui-image3" src="/images/signUp.png" alt="" />
-      </div>
+      </div> */}
       <h3 className="coding"> Coding Projects </h3>
       <div>
         <Cards />
