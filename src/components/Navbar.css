@@ -5,7 +5,7 @@
 }
 
 .navbar {
-  background: black;
+  background: #7868e6;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -26,7 +26,8 @@
 }
 
 .navbar-title {
-  color: pink;
+  color: white;
+  font-weight: bold;
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
@@ -96,9 +97,9 @@
   }
 
   .nav-menu.active {
-    background: #242222;
+    background: #b8b5ff;
     left: 0;
-    opacity: 5;
+    opacity: 95%;
     transition: all 0.5s ease;
     z-index: 1;
   }
@@ -111,8 +112,8 @@
   }
 
   .nav-links:hover {
-    background-color: pink;
-    color: white;
+    background-color: #edeef7;
+    color: black;
     border-radius: 0;
   }
 

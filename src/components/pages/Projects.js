@@ -9,7 +9,7 @@ function Projects() {
   return (
     <div>
       <h1 className="projects">Projects</h1>
-      <h2 className="daily-ui"> My Daily UI </h2>
+      <h2 className="daily-ui"> MY DAILY UI </h2>
       <div className="p">
         <p className="daily-ui-p">
           {" "}
@@ -23,7 +23,7 @@ function Projects() {
         <img className="ui-image2" src="/images/landingPage.png" alt="" />
         <img className="ui-image3" src="/images/signUp.png" alt="" />
       </div> */}
-      <h3 className="coding"> Coding Projects </h3>
+      <h3 className="coding"> CODING PROJECTS </h3>
       <div>
         <Cards />
       </div>

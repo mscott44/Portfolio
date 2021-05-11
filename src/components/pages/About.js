@@ -21,7 +21,7 @@ function About() {
           hope to have tons more!
         </p>
       </div>
-      <p className="about-adios"> Let's Get Innovative! </p>
+      <p className="about-adios"> LET'S GET INNOVATIVE! </p>
     </div>
   );
 }
