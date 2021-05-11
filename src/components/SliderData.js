@@ -1,8 +1,17 @@
 export const SliderData = [
   {
-    image: "images/dms.png",
+    image: "images/dm.png",
   },
   {
-    image: "images/signUp.png",
+    image: "images/musicPlayer.jpg",
+  },
+  {
+    image: "images/offSwitch.png",
+  },
+  {
+    image: "images/overlay.png",
+  },
+  {
+    image: "images/countdownTimer.png",
   },
 ];

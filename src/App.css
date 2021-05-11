@@ -15,32 +15,30 @@
   font-size: 3rem;
   background-color: black;
   color: white;
-  border-bottom-right-radius: 100px;
-  box-shadow: 10px 5px 5px grey;
+
   font-size: 75px;
   font-family: "Fjalla One", sans-serif;
+  opacity: 90%;
 }
 
 .daily-ui {
   font-family: "Fjalla One", sans-serif;
   /* margin-left: 37rem; */
-  margin-top: 5rem;
+  background-color: pink;
+  margin-top: 3rem;
   text-align: center;
-}
-.p {
-  margin-bottom: 1rem;
 }
 .daily-ui-p {
   font-family: "Fjalla One", sans-serif;
-  text-align: center;
+  justify-content: center;
   display: flex;
-  margin-left: 37rem;
 }
 
 .coding {
   font-family: "Fjalla One", sans-serif;
+  background-color: pink;
   /* margin-left: 37rem; */
-  margin-top: 5rem;
+  margin-top: 1rem;
   text-align: center;
 }
 
@@ -81,7 +79,7 @@
   align-items: center;
 }
 .image {
-  width: 400px;
+  width: 350px;
   height: 750px;
   border-radius: 10px;
 }
