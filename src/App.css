@@ -13,13 +13,12 @@
   align-items: center;
   justify-content: center;
   font-size: 3rem;
-  /* background-color: #b8b5ff; */
-  background-color: black;
-  /* color: #ffff; */
-  color: pink;
+  background-color: #b8b5ff;
+  /* background-color: black; */
+  color: #ffff;
+  /* color: pink; */
   font-size: 75px;
   font-family: "Fjalla One", sans-serif;
-  /* opacity: 90%; */
 }
 /* .about__container {
   background-color: red;
