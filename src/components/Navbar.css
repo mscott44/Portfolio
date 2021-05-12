@@ -92,7 +92,6 @@
     position: absolute;
     top: 80px;
     left: -100%;
-    opacity: 5;
     transition: all 0.5s ease;
   }
 
@@ -151,7 +150,7 @@
     color: #fff;
     padding: 14px 20px;
     border: 1px solid #fff;
-    transition: all 1s ease-out;
+    transition: all 0.3ßs ease-out;
   }
 
   .nav-links-mobile:hover {
