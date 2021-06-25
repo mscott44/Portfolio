@@ -8,8 +8,8 @@ function MainSection() {
     <div className="main-container">
       <video src="/videos/Dust-impact-03.mov" autoPlay loop muted />
 
-      <h1>Hi, Im Moriah</h1>
-      <p>Welcome To My Innovation Center</p>
+      <h1> Moriah Scott </h1>
+      <p>Aspiring Innovator</p>
       <div className="main-btns">
         <Button
           className="btns"
