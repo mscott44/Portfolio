@@ -5,23 +5,24 @@ function About() {
   return (
     <div className="about__container">
       <h1 className="about">About</h1>
+      <div className="about-image-wrapper">
+        <div className="about-image"></div>
+      </div>
+
       <div className="about-text">
-        <p>
-          As you may have gathered from my homepage, my name is Moriah and
-          welcome to my Center of Innovation. I am a Senior computer science
-          major, studio arts minor at Loyola Marymount University. Since I was a
-          kid I always found new ways to be creative and demonstrate my
-          abilities. I have a passion for design and tech, through frontend
-          development and UI/UX design, I am able to continue being creative, as
-          well as express myself through technology. The satisfaction of seeing
-          designs come to life almost instantly, is unbeatable. There is no
-          better feeling then to look at a finished product and know that it all
-          started with one line of code and an image in mind. As of now, I only
-          have three projects to show, one of them being this portfolio site.
-          However, as I progress I hope to have tons more!
+        <p className="text">
+          <div className="hey">
+            <strong>Hey there!</strong>
+          </div>
+          <br></br>
+          Currently, I am a senior computer science major, and studio arts minor
+          at Loyola Marymount University. Ever since I was a child, I always
+          found new ways to be creative and demonstrate my abilities. Today, I
+          continue to develop my skills through frontend development and UI/UX
+          design. I have a passion for design and technology and I can't wait to
+          share a little piece of me with you!
         </p>
       </div>
-      <p className="about-adios"> LET'S GET INNOVATIVE! </p>
     </div>
   );
 }

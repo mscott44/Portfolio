@@ -47,6 +47,21 @@
   background-size: fill;
   background-repeat: no-repeat;
 }
+.about-image {
+  background-image: url("/images/new2.png");
+  background-size: cover;
+
+  height: 550px;
+  width: 70%;
+  border-radius: 50%;
+}
+.about-image-wrapper {
+  width: 800px;
+  padding-top: 20px;
+  padding-left: 20px;
+  border-right: 2px; /*this line and below fixed the border problem*/
+  position: absolute;
+}
 
 .projects {
   background-position: center;
@@ -55,20 +70,35 @@
 }
 
 .about-text {
-  text-align: center;
-  margin-top: 10rem;
-  color: black;
+  text-align: start;
+  color: grey;
   font-size: 25px;
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 50rem;
+  margin-right: 5rem;
+  max-width: 50%;
+  min-width: 30;
+  height: fit-content;
+  padding-top: 5rem;
+}
+.text {
+  font-family: inherit;
+  vertical-align: auto;
+  font-size: 25px;
+}
+.hey {
+  font-size: 60px;
 }
 
 .about-adios {
-  text-align: center;
-  padding-top: 5rem;
-  font-size: 30px;
+  text-align: right;
+  font-size: 50px;
   color: black;
-  font-weight: bold;
+  font-family: inherit;
+  padding-right: 100px;
+  padding-top: 100px;
+}
+.about-container {
+  display: flex;
 }
 
 .slider {
@@ -82,6 +112,7 @@
   width: 350px;
   height: 750px;
   border-radius: 10px;
+  display: flex;
 }
 .right-arrow {
   position: absolute;
