@@ -1,11 +1,12 @@
 import React from "react";
 import "./MainSection.css";
 import "../App.css";
+
 import { Button } from "./Button";
 
 function MainSection() {
   return (
-    <div className="main-container">
+    <div className="mainhome-container">
       <video src="/videos/Dust-impact-03.mov" autoPlay loop muted />
 
       <h1> Moriah Scott </h1>

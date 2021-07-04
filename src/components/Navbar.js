@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "./Button";
-//import Dropdown from "./Dropdown";
+import Dropdown from "./Dropdown";
 import "./Navbar.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
   /*const [button, setButton] = useState(true);*/
-  //const [dropdown, setDropdown] = useState(false);
+  const [dropdown, setDropdown] = useState(false);
 
   /* function that reverses state*/
 
@@ -17,30 +17,29 @@ function Navbar() {
 
   const closeMobileMenu = () => setClick(false);
 
-  // const onMouseEnter = () => {
-  //   if (window.innerHeight < 960) {
-  //     setDropdown(false);
-  //   } else {
-  //     setDropdown(true);
-  //   }
-  // };
-
-  // const onMouseLeave = () => {
-  //   if (window.innerHeight < 960) {
-  //     setDropdown(false);
-  //   } else {
-  //     setDropdown(false);
-  //   }
-  // };
-
-  /*const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
+  const onMouseEnter = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
     } else {
-      setButton(true);
+      setDropdown(true);
     }
   };
-  */
+
+  const onMouseLeave = () => {
+    if (window.innerWidth < 960) {
+      setDropdown(false);
+    } else {
+      setDropdown(false);
+    }
+  };
+
+  // const showButton = () => {
+  //   if (window.innerWidth <= 960) {
+  //     setButton(false);
+  //   } else {
+  //     setButton(true);
+  //   }
+  // };
 
   /*whenever we resize the screen we want showButton to work*/
 
@@ -70,8 +69,8 @@ function Navbar() {
             </li>
             <li
               className="nav-item"
-              // onMouseEnter={onMouseEnter}
-              // onMouseLeave={onMouseLeave}
+              onMouseEnter={onMouseEnter}
+              onMouseLeave={onMouseLeave}
             >
               <Link
                 to="/Projects"
@@ -79,9 +78,14 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
                 Projects
-                {/* <i className="fas fa-caret-down" /> */}
+                <i className="fas fa-caret-down" />
               </Link>
-              {/* {dropdown && <Dropdown />} */}
+              {dropdown && <Dropdown />}
+            </li>
+            <li className="nav-item">
+              <Link to="/art" className="nav-links" onClick={closeMobileMenu}>
+                Art <i className="fas fa-caret-down" />
+              </Link>
             </li>
           </ul>
           <Button />

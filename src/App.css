@@ -51,12 +51,12 @@
   background-image: url("/images/new2.png");
   background-size: cover;
 
-  height: 550px;
+  height: 500px;
   width: 70%;
   border-radius: 50%;
 }
 .about-image-wrapper {
-  width: 800px;
+  width: 700px;
   padding-top: 20px;
   padding-left: 20px;
   border-right: 2px; /*this line and below fixed the border problem*/
@@ -73,7 +73,8 @@
   text-align: start;
   color: grey;
   font-size: 25px;
-  margin-left: 50rem;
+  float: right;
+  /* margin-left: 50rem; */
   margin-right: 5rem;
   max-width: 50%;
   min-width: 30;
@@ -102,19 +103,22 @@
 }
 
 .slider {
-  position: relative;
-  height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 30px;
+  max-width: 20%;
+
+  /* justify-content: right;
+  align-items: center; */
 }
 .image {
-  width: 350px;
-  height: 750px;
+  width: 40vh;
+  height: 85vh;
   border-radius: 10px;
   display: flex;
 }
-.right-arrow {
+/* .right-arrow {
   position: absolute;
   top: 50%;
   right: 32px;
@@ -134,7 +138,7 @@
   z-index: 10;
   cursor: pointer;
   user-select: none;
-}
+} */
 
 .slide {
   opacity: 0;
@@ -145,4 +149,20 @@
   opacity: 1;
   transition-duration: 1s;
   transform: scale(1.08);
+}
+@media only screen and (max-width: 1180px) {
+  .about-image-wrapper {
+    position: relative;
+  }
+}
+@media only screen and (min-width: 1055px) {
+  .main-container {
+    float: right;
+  }
+}
+@media only screen and (max-width: 1030px) {
+  .image {
+    align-items: center;
+    margin-left: 100px;
+  }
 }
