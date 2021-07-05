@@ -13,7 +13,7 @@ function UIUX() {
             <div className="ui-pics" key={index}>
               <img className="ui-image" src={item.src} alt={item.title} />
               <div className="ui-hover">
-                <Link to={item.link}>
+                <Link className="ui-image-links" to={item.link}>
                   <div className="ui-text"> {item.text} </div>
                 </Link>
               </div>
