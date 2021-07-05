@@ -13,6 +13,7 @@ import Paintings from "./components/pages/Paintings";
 import Photo from "./components/pages/Photo";
 import Graphics from "./components/pages/Graphics";
 import Procreate from "./components/pages/Procreate";
+import ProjectOne from "./components/pages/uProjectOne";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           <Route path="/procreate" exact component={Procreate} />
           <Route path="/graphics" exact component={Graphics} />
           <Route path="/paintings" exact component={Paintings} />
+          <Route path="/uProjectOne" exact component={ProjectOne} />
         </Switch>
       </Router>
     </>
