@@ -42,14 +42,22 @@ function uProjectOne() {
           <div style={{ marginTop: "30px" }}>
             <p4>Research also allowed for pain points to be discovered</p4>
             <br></br>
-            <img className="painPoint" src="./images/painPoints.png"></img>
+            <img
+              className="painPoint"
+              src="./images/painPoints.png"
+              alt="painPoint"
+            ></img>
           </div>
           <p4>
             {" "}
             Personas were made to help give a story and a face for potential
             user groups. Below is an example of one of them
           </p4>
-          <img className="painPoint" src="./images/persona.png"></img>
+          <img
+            className="painPoint"
+            src="./images/persona.png"
+            alt="persona"
+          ></img>
           <p4>
             <br></br> <strong>Problem Statment:</strong> Charlie is a food
             connoisseur visiting New York who needs way to get food quickly
@@ -66,7 +74,11 @@ function uProjectOne() {
               rewards for first time users that could be beneficial
             </p4>
 
-            <img className="journeyMap" src="./images/journeyMap.png"></img>
+            <img
+              className="journeyMap"
+              src="./images/journeyMap.png"
+              alt="journeyMap"
+            ></img>
           </div>
         </div>
       </div>

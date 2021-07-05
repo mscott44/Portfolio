@@ -11,6 +11,7 @@ function MainSection() {
 
       <h1> Moriah Scott </h1>
       <p>Aspiring Innovator</p>
+      <p1>website built using react</p1>
       <div className="main-btns">
         <Button
           className="btns"
