@@ -11,12 +11,12 @@ function UIUX() {
         {UImageData.map((item, index) => {
           return (
             <div className="ui-pics" key={index}>
-              <img className="ui-image" src={item.src} alt={item.title} />
-              <div className="ui-hover">
-                <Link className="ui-image-links" to={item.link}>
+              <Link className="ui-image-links" to={item.link}>
+                <img className="ui-image" src={item.src} alt={item.title} />
+                <div className="ui-hover">
                   <div className="ui-text"> {item.text} </div>
-                </Link>
-              </div>
+                </div>
+              </Link>
             </div>
           );
         })}

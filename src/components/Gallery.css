@@ -11,31 +11,10 @@
   margin-left: 100px;
   margin-top: 100px;
 }
-.ui-hover:hover {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0.1;
-  transition: 0.5s ease;
-  background-color: black;
+.ui-text:hover {
+  background-color: white;
+  color: #7868e6;
 }
-.ui-image-container:hover {
-  opacity: 80%;
-}
-/* .ui-image-links:hover {
-  background: white;
-  color: #242424;
-  transition: 250ms;
-} */
-/* .ui-hover:hover {
-  transform: scale(1.1);
-
-  background-color: black;
-} */
 
 .ui-text {
   color: white;
