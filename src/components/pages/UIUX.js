@@ -1,7 +1,7 @@
 import React from "react";
 import { UImageData } from "../uImageData";
 import { Link } from "react-router-dom";
-import { Row, Col } from "react-bootstrap";
+
 import "../Gallery.css";
 
 function UIUX() {
