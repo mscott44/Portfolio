@@ -23,8 +23,8 @@
   transition: 0.5s ease;
   background-color: black;
 }
-.ui-image-container:hover .ui-hover {
-  opacity: 90%;
+.ui-image-container:hover {
+  opacity: 80%;
 }
 /* .ui-image-links:hover {
   background: white;
