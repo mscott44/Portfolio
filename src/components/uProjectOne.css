@@ -4,12 +4,15 @@ p1,
 p2,
 p3,
 p4,
+p5,
+p6,
 strong {
   font-family: "Montserrat";
 }
 p1,
 p2,
-p4 {
+p4,
+p6 {
   font-size: 20px;
 }
 
@@ -23,12 +26,17 @@ p4 {
 .reasearch-block {
   margin-top: 50px;
 }
-.research-header {
+.research-header,
+.design-header {
   font-size: 70px;
   color: #b8b5ff;
 }
 .painPoint,
-.journeyMap {
+.journeyMap,
+.persona,
+.paper-wireframe-1,
+.digital-wireframe-1,
+.digital-wireframe-pics-block {
   max-width: 100%;
   max-height: 65vh;
 }

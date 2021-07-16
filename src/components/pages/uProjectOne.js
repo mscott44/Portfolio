@@ -54,7 +54,7 @@ function uProjectOne() {
             user groups. Below is an example of one of them
           </p4>
           <img
-            className="painPoint"
+            className="persona"
             src="./images/persona.png"
             alt="persona"
           ></img>
@@ -73,11 +73,63 @@ function uProjectOne() {
               These user feelings lead to improvement opportunities such as
               rewards for first time users that could be beneficial
             </p4>
+            <br></br>
 
             <img
               className="journeyMap"
               src="./images/journeyMap.png"
               alt="journeyMap"
+              style={{ paddingTop: "20px" }}
+            ></img>
+          </div>
+        </div>
+        <div className="design-block" style={{ marginTop: "50px" }}>
+          <p5 className="design-header">design </p5>
+          <br></br>
+          <p6>
+            {" "}
+            I created paper and digital wireframes to get a better idea a of how
+            I wanted my app to look. The paper wireframes were the first step in
+            making all the ideas I had in my head come to life{" "}
+          </p6>
+          <br></br>
+          <img
+            className="paper-wireframe-1"
+            src="./images/paperWireframe-1.png"
+            alt="paper-wireframe-1"
+            style={{ paddingTop: "20px", paddingBottom: "20px" }}
+          ></img>
+          <br></br>
+
+          <p6>
+            After going through the paper wireframes and recieving feedback, a
+            design was chosen. The goal was to have a mixture of simplicity and
+            fun so every user has a beyond exceptional expireince when using
+            this app{" "}
+          </p6>
+          <div
+            className="digital-wireframe-pics-block"
+            style={{ marginTop: "20px" }}
+          >
+            <img
+              className="digital-wireframe-1"
+              src="./images/digitalWireframe-1.png"
+              alt="digital-wireframe-1"
+              style={{
+                paddingTop: "20px",
+                paddingBottom: "20px",
+                backgroundColor: "black",
+              }}
+            ></img>
+            <img
+              className="digital-wireframe-2"
+              src="./images/digitalWireframe-2.png"
+              alt="digital-wireframe-2"
+              style={{
+                paddingTop: "20px",
+                paddingBottom: "20px",
+                backgroundColor: "black",
+              }}
             ></img>
           </div>
         </div>
