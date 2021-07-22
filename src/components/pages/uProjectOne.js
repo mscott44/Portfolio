@@ -5,8 +5,6 @@ function uProjectOne() {
   return (
     <body className="projectOnePage">
       <div className="blocks">
-        
-     
         {" "}
         <div className="first-block">
           <p1 className="firstSent">
@@ -18,7 +16,6 @@ function uProjectOne() {
         </div>
         <br></br>
         <div>
-        
           <p2>
             <strong>Challenge:</strong> Build a customer service app for a food
             truck in New York
@@ -134,13 +131,8 @@ function uProjectOne() {
                 backgroundColor: "black",
               }}
             ></img>
-            <br></br>
-           <video className="low-fi" src="./videos/fi.mp4" autoplay controls/>
           </div>
-         
         </div>
-       
-        
       </div>
     </body>
   );
