@@ -2,14 +2,13 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "./Button";
 import Dropdown from "./Dropdown";
-import ArtDropdown from "./ArtDropdown";
+
 import "./Navbar.css";
 
 function Navbar() {
   const [click, setClick] = useState(false);
   /*const [button, setButton] = useState(true);*/
   const [dropdown, setDropdown] = useState(false);
-  const [artDropdown, setArtDropdown] = useState(false);
 
   /* function that reverses state*/
 
@@ -32,22 +31,6 @@ function Navbar() {
       setDropdown(false);
     } else {
       setDropdown(false);
-    }
-  };
-
-  const onMouseEnterArt = () => {
-    if (window.innerWidth < 960) {
-      setArtDropdown(false);
-    } else {
-      setArtDropdown(true);
-    }
-  };
-
-  const onMouseLeaveArt = () => {
-    if (window.innerWidth < 960) {
-      setArtDropdown(false);
-    } else {
-      setArtDropdown(false);
     }
   };
 
@@ -100,15 +83,10 @@ function Navbar() {
               </Link>
               {dropdown && <Dropdown />}
             </li>
-            <li
-              className="nav-item"
-              onMouseEnter={onMouseEnterArt}
-              onMouseLeave={onMouseLeaveArt}
-            >
+            <li className="nav-item">
               <Link to="/art" className="nav-links" onClick={closeMobileMenu}>
-                Art <i className="fas fa-caret-down" />
+                Art
               </Link>
-              {artDropdown && <ArtDropdown />}
             </li>
           </ul>
           <Button />

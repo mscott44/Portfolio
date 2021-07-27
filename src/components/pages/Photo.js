@@ -3,7 +3,7 @@ import React from "react";
 function Photo() {
   return (
     <div>
-      <h1>Phtotography coming soon....</h1>
+      <h1> art coming soon </h1>
     </div>
   );
 }

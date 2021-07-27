@@ -109,28 +109,45 @@ function uProjectOne() {
           </p6>
           <div
             className="digital-wireframe-pics-block"
-            style={{ marginTop: "20px" }}
+            style={{ marginTop: "20px", backgroundColor: "black" }}
           >
-            <img
-              className="digital-wireframe-1"
-              src="./images/digitalWireframe-1.png"
-              alt="digital-wireframe-1"
-              style={{
-                paddingTop: "20px",
-                paddingBottom: "20px",
-                backgroundColor: "black",
-              }}
-            ></img>
-            <img
-              className="digital-wireframe-2"
-              src="./images/digitalWireframe-2.png"
-              alt="digital-wireframe-2"
-              style={{
-                paddingTop: "20px",
-                paddingBottom: "20px",
-                backgroundColor: "black",
-              }}
-            ></img>
+            <div>
+              <img
+                className="digital-wireframe-1"
+                src="./images/digitalWireframe-1.png"
+                alt="digital-wireframe-1"
+                style={{
+                  paddingTop: "20px",
+                  paddingBottom: "20px",
+
+                  height: "500px",
+                  width: "450px",
+                }}
+              ></img>
+            </div>
+            <div>
+              <img
+                className="digital-wireframe-2"
+                src="./images/digitalWireframe-2.png"
+                alt="digital-wireframe-2"
+                style={{
+                  paddingTop: "20px",
+                  paddingBottom: "20px",
+                }}
+              ></img>
+            </div>
+          </div>
+          <video
+            className="low-fi"
+            src="./videos/low-fi.mov"
+            autoPlay
+            loop
+            muted
+            style={{ backgroundColor: "black" }}
+          />
+          <div className="video-overlay">
+            <p style={{ fontFamily: "Impact" }}>low-fi</p>
+            <p>prototype</p>
           </div>
         </div>
       </div>
