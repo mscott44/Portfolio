@@ -150,6 +150,10 @@ function uProjectOne() {
             <p>prototype</p>
           </div>
         </div>
+        <p>
+          {" "}
+          don't worry, there is more coming soon...this is a project in progress
+        </p>
       </div>
     </body>
   );
