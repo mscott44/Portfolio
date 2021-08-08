@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
-
+.projectOnePage {
+  background-color: black;
+}
 p1,
 p2,
 p3,
@@ -27,7 +29,9 @@ p6 {
   margin-top: 50px;
 }
 .research-header,
-.design-header {
+.design-header,
+.refining-header,
+.takeaway-header {
   font-size: 70px;
   color: #b8b5ff;
 }
@@ -36,7 +40,10 @@ p6 {
 .persona,
 .paper-wireframe-1,
 .digital-wireframe-1,
-.digital-wireframe-pics-block {
+.digital-wireframe-pics-block,
+.user-findings,
+.affinity-map,
+.mockup-1 {
   display: block;
   height: 100%;
   width: 100%;
@@ -56,7 +63,8 @@ p6 {
   display: inline-block;
 }
 
-.low-fi {
+.low-fi,
+.hi-fi {
   object-fit: contain;
   max-width: 100%;
   max-height: 100vh;
@@ -67,9 +75,8 @@ p6 {
 
 .video-overlay {
   position: absolute;
-  top: 400rem;
   left: 10rem;
-  z-index: 10;
+
   color: white;
   text-align: left;
   font-size: 80px;
