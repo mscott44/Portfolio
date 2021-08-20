@@ -1,6 +1,6 @@
 import React from "react";
-import "./Card.css";
-import CardItem from "./CardItem";
+import "../cards/Card.css";
+import CardItem from "../cards/CardItem";
 
 function Cards() {
   return (

@@ -1,7 +1,7 @@
 import "../../App.css";
 import React from "react";
 
-import Cards from "../Cards";
+import Cards from "../cards/Cards";
 
 function Coding() {
   return (

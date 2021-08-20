@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Button } from "./Button";
-import Dropdown from "./Dropdown";
+import { Button } from "./buttons/Button";
+import Dropdown from "./features/Dropdown";
 
 import "./Navbar.css";
 

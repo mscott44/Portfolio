@@ -1,9 +1,9 @@
 import React from "react";
 
 import "../../App.css";
-import ProjectsSection from "../ProjectsSection";
-import ImageSlider from "../ImageSlider";
-import { SliderData } from "../SliderData";
+import ProjectsSection from "../Sections/ProjectsSection";
+import ImageSlider from "../features/ImageSlider";
+import { SliderData } from "../array/SliderData";
 
 function Projects() {
   return (

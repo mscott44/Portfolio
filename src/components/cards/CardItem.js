@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "react-bootstrap/Button";
-import "./Button.css";
+import "../buttons/Button.css";
 
 /*passing in properties from Cards*/
 function CardItem(props) {

@@ -1,8 +1,8 @@
 import React from "react";
-import "./MainSection.css";
-import "../App.css";
+import "../Sections/MainSection.css";
+import "../../App.css";
 
-import { Button } from "./Button";
+import { Button } from "../buttons/Button";
 
 function MainSection() {
   return (
