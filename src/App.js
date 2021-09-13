@@ -9,11 +9,13 @@ import OnTheBlock from "./components/pages/OnTheBlock";
 import Coding from "./components/pages/Coding";
 import UIUX from "./components/pages/UIUX";
 import Art from "./components/pages/Art";
-import Paintings from "./components/pages/Paintings";
+
 import Photo from "./components/pages/Photo";
-import Graphics from "./components/pages/Graphics";
-import Procreate from "./components/pages/Procreate";
+
 import ProjectOne from "./components/pages/uProjectOne";
+
+import ProjectTwo from "./components/pages/uProjectTwo";
+import ProjectThree from "./components/pages/uProjectThree";
 
 function App() {
   return (
@@ -29,10 +31,11 @@ function App() {
           <Route path="/uiux" exact component={UIUX} />
           <Route path="/art" exact component={Art} />
           <Route path="/photo" exact component={Photo} />
-          <Route path="/procreate" exact component={Procreate} />
-          <Route path="/graphics" exact component={Graphics} />
-          <Route path="/paintings" exact component={Paintings} />
+
           <Route path="/uProjectOne" exact component={ProjectOne} />
+
+          <Route path="/uProjectTwo" exact component={ProjectTwo} />
+          <Route path="/uProjectThree" exact component={ProjectThree} />
         </Switch>
       </Router>
     </>

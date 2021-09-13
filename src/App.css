@@ -48,7 +48,7 @@
   background-repeat: no-repeat;
 }
 .about-image {
-  background-image: url("/images/new2.png");
+  background-image: url("/images/about-image.jpeg");
   background-size: cover;
 
   height: 500px;

@@ -1,0 +1,51 @@
+.main-container {
+  height: 100vh;
+  width: 100%;
+
+  flex-direction: column;
+  box-shadow: inset 0 0 0 100px rgba(0, 0, 0, 0);
+  object-fit: contain;
+  justify-content: center;
+  background-color: black;
+
+  /* position: absolute; */
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-shadow: inset 0 0 0 100px rgba(0, 0, 0, 0);
+  object-fit: contain;
+  justify-content: center;
+}
+
+.main-container > h1 {
+  color: #7868e6;
+  font-size: 60px;
+  margin-top: -100px;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.main-container > p {
+  margin-top: 8px;
+  color: white;
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.main-btns {
+  margin-top: 10px;
+}
+
+.main-btns:hover {
+  background-color: #7868e6;
+  transition: all 0.3s ease-out;
+}
+
+@media only screen and (max-width: 1180px) {
+  .about-image-wrapper {
+    position: relative;
+  }
+}

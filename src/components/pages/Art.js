@@ -1,7 +1,7 @@
 import React from "react";
 
 import "../../App.css";
-import ArtSection from "../ArtSection";
+import ArtSection from "../Sections/ArtSection";
 
 function Art() {
   return (

@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+.projectOnePage {
+  background-color: black;
+}
+p1,
+p2,
+p3,
+p4,
+p5,
+p6,
+strong {
+  font-family: "Montserrat";
+}
+p1,
+p2,
+p4,
+p6 {
+  font-size: 20px;
+}
+
+p7 {
+  font-size: 30px;
+  color: white;
+  font-family: "Montserrat";
+}
+
+.blocks {
+  /* margin-top: 20px; */
+  margin-left: 100px;
+  margin-right: 100px;
+  /* margin-bottom: 40px; */
+}
+
+.blocks {
+  margin-top: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 40px;
+
+  max-width: 100%;
+}
+.reasearch-block {
+  margin-top: 50px;
+}
+.research-header,
+.design-header,
+.refining-header,
+.takeaway-header {
+  font-size: 70px;
+  color: #b8b5ff;
+}
+.painPoint,
+.journeyMap,
+.persona,
+.paper-wireframe-1,
+.digital-wireframe-1,
+.digital-wireframe-pics-block,
+.user-findings,
+.affinity-map,
+.mockup-1 {
+  display: block;
+  height: 100%;
+  width: 100%;
+  max-height: none;
+  max-width: none;
+  text-align: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.digital-wireframe-1,
+.digital-wireframe-2 {
+  max-width: 100%;
+  max-height: 100%;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.low-fi,
+.hi-fi {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100vh;
+  position: relative;
+  /*stack order*/
+  /* z-index: -1; */
+}
+
+.video-overlay {
+  position: absolute;
+  left: 10rem;
+
+  color: white;
+  text-align: left;
+  font-size: 80px;
+  font-family: Impact;
+}
