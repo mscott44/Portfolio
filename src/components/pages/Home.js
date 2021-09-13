@@ -1,5 +1,5 @@
 import "../../App.css";
-import MainSection from "../MainSection";
+import MainSection from "../Sections/MainSection";
 import Footer from "../Footer";
 import React from "react";
 
