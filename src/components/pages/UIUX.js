@@ -55,10 +55,12 @@ export default function UIUX() {
         <CardsGrid img="/images/foodTruck3.png" link="/uProjectOne" />
       </Grid>
       <Grid item xs={12} sm={12} md={6}>
+
         <CardsGrid img="/images/circ2.png" link="/uProjectTwo" />
       </Grid>
       <Grid item xs={12} sm={12} md={6}>
         <CardsGrid img="/images/mentored.png" link="/uProjectThree" />
+
 
     </Grid>
   );

@@ -19,6 +19,7 @@ p6 {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 p7 {
   font-size: 30px;
   color: white;
@@ -31,11 +32,16 @@ p7 {
   margin-right: 100px;
   /* margin-bottom: 40px; */
 =======
+=======
+>>>>>>> 36f297b2c2d0f00d2f9383a211abd4e48a36ba79
 .blocks {
   margin-top: 60px;
   margin-left: 100px;
   margin-right: 100px;
   margin-bottom: 40px;
+<<<<<<< HEAD
+>>>>>>> 36f297b2c2d0f00d2f9383a211abd4e48a36ba79
+=======
 >>>>>>> 36f297b2c2d0f00d2f9383a211abd4e48a36ba79
   max-width: 100%;
 }
