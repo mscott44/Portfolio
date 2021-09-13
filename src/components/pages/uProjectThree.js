@@ -82,7 +82,7 @@ function uProjectThree() {
               alt="persona"
             ></img>
             <p4 style={{ color: "black" }}>
-              /br> I conuducted a competetive audit to better understand what is
+              I conuducted a competetive audit to better understand what is
               already out there in the market. Through this, it was found that
               most of the other websites were similar to each other in what was
               being offered and the design. One website would not allow you to
