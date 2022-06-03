@@ -45,7 +45,7 @@ video {
 
 .main-container > p {
   margin-top: 8px;
-  color: white;
+  color: black;
   font-size: 32px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -53,15 +53,15 @@ video {
 
 .mainhome-container > p {
   margin-top: 8px;
-  color: white;
-  font-size: 32px;
+  color: black;
+  font-size: 25px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 .mainhome-container > p1 {
   margin-top: 8px;
-  color: white;
-  font-size: 15px;
+  color: black;
+  font-size: 10px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
@@ -71,5 +71,6 @@ video {
 
 .main-btns:hover {
   background-color: #7868e6;
+  border-radius: 10px;
   transition: all 0.3s ease-out;
 }

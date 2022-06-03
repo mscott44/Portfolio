@@ -272,16 +272,16 @@ function uProjectTwo() {
             to life
           </p6>
           <br></br>
-          {/* {
-            <video
-              className="low-fi"
-              src="./videos/hi-fi-23.mov"
-              autoPlay
-              loop
-              muted
-              style={{ backgroundColor: "black", zIndex: "1" }}
-            />
-          } */}
+          {
+            // <video
+            //   className="low-fi"
+            //   src="./videos/hi-fi-2.mov"
+            //   autoPlay
+            //   loop
+            //   muted
+            //   style={{ backgroundColor: "black", zIndex: "1" }}
+            // />
+          }
           <p6 style={{ color: "white" }}>
             For accesibility considerations I took into account the color
             scheme, and made sure not to use color combinatiolns that would be
