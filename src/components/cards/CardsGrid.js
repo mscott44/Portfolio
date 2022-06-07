@@ -36,10 +36,6 @@ export default function UIUX(props) {
         <Link href={props.link}>
           <CardContent className={classes.pic}>
             <CardMedia className={classes.media} image={props.img}></CardMedia>
-
-            <CardActions>
-              <Button size="small">learn more...</Button>
-            </CardActions>
           </CardContent>
         </Link>
       </CardActionArea>

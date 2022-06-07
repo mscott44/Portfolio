@@ -14,12 +14,13 @@ function About() {
             <strong>Hey there!</strong>
           </div>
           <br></br>
-          Currently, I am a senior computer science major, and studio arts minor
-          at Loyola Marymount University. Ever since I was a child, I always
-          found new ways to be creative and demonstrate my abilities. Today, I
-          continue to develop my skills through frontend development and UI/UX
-          design. I have a passion for design and technology and I can't wait to
-          share a little piece of me with you!
+          I'm from San Jose, California and I've recently graduated with a
+          bachelors in Computer Science! I am currently pursuing an opportunity
+          in UI/UX design or something closely related (design marketing or
+          front end engining) and really excited to take that first step in my
+          career as a creative in a highly technical environment. I have
+          experience with Figma, react, and javascript which are showcased in
+          the projects on my portfolio
         </p>
       </div>
     </div>

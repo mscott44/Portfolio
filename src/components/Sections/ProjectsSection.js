@@ -15,6 +15,7 @@ function ProjectsSection() {
             buttonStyle="btn--outline"
             buttonSize="btn--large"
             path="./uiux"
+            id="button--black"
           >
             UI/UX Projects
           </Buttons>

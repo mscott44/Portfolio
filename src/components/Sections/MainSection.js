@@ -13,7 +13,7 @@ function MainSection() {
       <div className="main-btns">
         <Button
           className="btns"
-          buttonStyle="btn--outline"
+          buttonStyle="btn--main"
           buttonSize="btn--large"
         >
           View Projects

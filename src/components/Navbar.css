@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans:ital,wght@1,200&family=Montserrat:ital,wght@1,300&family=Open+Sans:wght@300&family=Oswald:wght@200&display=swap');
 
-* {
+/* * {
   font-family: 'Bebas Neue';
-}
+} */
 
 .navbar {
   background: white;
