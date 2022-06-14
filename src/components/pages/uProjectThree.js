@@ -213,7 +213,7 @@ function uProjectThree() {
           <br></br>
           {
             <video
-              className="low-fi"
+              className="low-fi-three"
               src="./videos/hi-fi-3.mov"
               autoPlay
               loop

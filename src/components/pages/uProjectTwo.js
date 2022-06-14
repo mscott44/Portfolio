@@ -186,12 +186,12 @@ function uProjectTwo() {
           </p6>
           <br></br>
           <video
-            className="low-fi"
+            className="low-fi-two"
             src="./videos/project-2-lowfi.mov"
             autoPlay
             loop
             muted
-            style={{ backgroundColor: "black", zIndex: "1" }}
+            style={{ zIndex: "1" }}
           />
           <br></br>
           <p7> low-fi usability study </p7>

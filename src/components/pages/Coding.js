@@ -1,21 +1,55 @@
-import "../../App.css";
-import React from "react";
+// import "../../App.css";
+// import React from "react";
 
-import Cards from "../cards/Cards";
+// import Cards from "../cards/Cards";
+
+// function Coding() {
+//   return (
+//     <div>
+//       {/* <div className="images">
+//   <img className="ui-image1" src="/images/dms.png" alt="" />{" "}
+//   <img className="ui-image2" src="/images/landingPage.png" alt="" />
+//   <img className="ui-image3" src="/images/signUp.png" alt="" />
+// </div> */}
+//       <h3 className="coding"> CODING PROJECTS </h3>
+//       <div>
+//         <Cards />
+//       </div>
+//     </div>
+//   );
+// }
+
+//----------USING MATERIAL UI FRAMEWORK-----------------
+
+import React from "react";
+// import "../Gallery.css";
+import CardsGrid from "../cards/CardsGrid";
+import Grid from "@material-ui/core/Grid";
+import { makeStyles } from "@material-ui/styles";
+
+const useStyles = makeStyles({
+  gridContainer: {
+    paddingLeft: "20px",
+    paddingRight: "20px",
+  },
+});
 
 function Coding() {
+  const classes = useStyles();
   return (
-    <div>
-      {/* <div className="images">
-  <img className="ui-image1" src="/images/dms.png" alt="" />{" "}
-  <img className="ui-image2" src="/images/landingPage.png" alt="" />
-  <img className="ui-image3" src="/images/signUp.png" alt="" />
-</div> */}
-      <h3 className="coding"> CODING PROJECTS </h3>
-      <div>
-        <Cards />
-      </div>
-    </div>
+    <Grid
+      container
+      justify="center"
+      spacing={4}
+      classname={classes.gridContainer}
+    >
+      <Grid item xs={12} sm={12} md={6}>
+        <CardsGrid img="/images/otbCard.png" link="/" />
+      </Grid>
+      <Grid item xs={12} sm={12} md={6}>
+        <CardsGrid img="/images/Beaker.png" link="/" />
+      </Grid>
+    </Grid>
   );
 }
 

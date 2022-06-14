@@ -145,19 +145,21 @@ function uProjectOne() {
             ></img>
           </div>
         </div>
-        <div className="video-overlay">
-          <p style={{ fontFamily: "Impact" }}>low-fi</p>
-          <p>prototype</p>
+        <div style={{ backgroundColor: "black" }}>
+          <div className="video-overlay">
+            <p style={{ fontFamily: "Impact" }}>low-fi</p>
+            <p>prototype</p>
+          </div>
+          <video
+            className="low-fi"
+            src="./videos/low-fi.mov"
+            autoPlay
+            loop
+            muted
+            style={{ backgroundColor: "black" }}
+          />
+          <br></br>
         </div>
-        <video
-          className="low-fi"
-          src="./videos/low-fi.mov"
-          autoPlay
-          loop
-          muted
-          style={{ backgroundColor: "black" }}
-        />
-        <br></br>
         <div className="blocks">
           <p6>
             {" "}
