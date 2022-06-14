@@ -209,15 +209,17 @@ function uProjectOne() {
             design enhancments, a high fidelity prototype was developed{" "}
           </p6>
         </div>
-        <video
-          className="hi-fi"
-          src="./videos/hi-fi.mov"
-          autoPlay
-          loop
-          muted
-          style={{ backgroundColor: "black" }}
-        />
-        <br></br>
+        <div style={{ backgroundColor: "black" }}>
+          <video
+            className="hi-fi"
+            src="./videos/hi-fi.mov"
+            autoPlay
+            loop
+            muted
+            style={{ backgroundColor: "black" }}
+          />
+          <br></br>
+        </div>
         <div className="blocks">
           <p6 s>
             For accesibility considerations I took into account the color
