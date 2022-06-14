@@ -34,6 +34,7 @@ import React from "react";
 import CardsGrid from "../cards/CardsGrid";
 import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/styles";
+import "../cards/UIUX.css";
 
 const useStyles = makeStyles({
   gridContainer: {
@@ -49,6 +50,7 @@ export default function UIUX() {
       container
       justify="center"
       spacing={4}
+      id="padding"
       classname={classes.gridContainer}
     >
       <Grid item xs={12} sm={12} md={6}>
@@ -59,6 +61,9 @@ export default function UIUX() {
       </Grid>
       <Grid item xs={12} sm={12} md={6}>
         <CardsGrid img="/images/mentored.png" link="/uProjectThree" />
+      </Grid>
+      <Grid item xs={12} sm={12} md={6}>
+        <CardsGrid img="/images/plantfood.png" link="/uProjectFour" />
       </Grid>
     </Grid>
   );

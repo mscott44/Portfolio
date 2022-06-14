@@ -26,6 +26,7 @@ import React from "react";
 import CardsGrid from "../cards/CardsGrid";
 import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/styles";
+import "../cards/UIUX.css";
 
 const useStyles = makeStyles({
   gridContainer: {
@@ -41,6 +42,7 @@ function Coding() {
       container
       justify="center"
       spacing={4}
+      id="padding"
       classname={classes.gridContainer}
     >
       <Grid item xs={12} sm={12} md={6}>
