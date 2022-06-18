@@ -16,6 +16,7 @@ import ProjectOne from "./components/pages/uProjectOne";
 
 import ProjectTwo from "./components/pages/uProjectTwo";
 import ProjectThree from "./components/pages/uProjectThree";
+import ProjectFour from "./components/pages/uProjectFour";
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
 
           <Route path="/uProjectTwo" exact component={ProjectTwo} />
           <Route path="/uProjectThree" exact component={ProjectThree} />
+          <Route path="/uProjectFour" exact component={ProjectFour} />
         </Switch>
       </Router>
     </>
