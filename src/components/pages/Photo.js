@@ -1,9 +1,10 @@
 import React from "react";
+import TitlebarGridList from "../TitlebarGridList";
 
 function Photo() {
   return (
     <div>
-      <h1> art coming soon </h1>
+      <TitlebarGridList />
     </div>
   );
 }

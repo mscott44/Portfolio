@@ -46,25 +46,32 @@ const useStyles = makeStyles({
 export default function UIUX() {
   const classes = useStyles();
   return (
-    <Grid
-      container
-      justify="center"
-      spacing={4}
-      id="padding"
-      classname={classes.gridContainer}
-    >
-      <Grid item xs={12} sm={12} md={6}>
-        <CardsGrid img="/images/foodTruck3.png" link="/uProjectOne" />
+    <div>
+      <Grid
+        container
+        justify="center"
+        spacing={4}
+        id="padding"
+        classname={classes.gridContainer}
+      >
+        <Grid item xs={12} sm={12} md={6}>
+          <CardsGrid img="/images/foodTruck3.png" link="/uProjectOne" />
+        </Grid>
+        <Grid item xs={12} sm={12} md={6}>
+          <CardsGrid img="/images/circ2.png" link="/uProjectTwo" />
+        </Grid>
+        <Grid item xs={12} sm={12} md={6}>
+          <CardsGrid img="/images/mentored.png" link="/uProjectThree" />
+        </Grid>
+        <Grid item xs={12} sm={12} md={6}>
+          <CardsGrid img="/images/plantfood.png" link="/uProjectFour" />
+        </Grid>
       </Grid>
-      <Grid item xs={12} sm={12} md={6}>
-        <CardsGrid img="/images/circ2.png" link="/uProjectTwo" />
-      </Grid>
-      <Grid item xs={12} sm={12} md={6}>
-        <CardsGrid img="/images/mentored.png" link="/uProjectThree" />
-      </Grid>
-      <Grid item xs={12} sm={12} md={6}>
-        <CardsGrid img="/images/plantfood.png" link="/uProjectFour" />
-      </Grid>
-    </Grid>
+      {/* <h1 className="headr" style={{ justifyContent: "center" }}>
+        {" "}
+        more cool designs{" "}
+      </h1>
+      <p style={{ alignItems: "center" }}>just for fun</p> */}
+    </div>
   );
 }

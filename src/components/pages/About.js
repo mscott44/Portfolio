@@ -3,7 +3,7 @@ import "../../App.css";
 function About() {
   return (
     <div className="about__container">
-      <h1 className="about">About</h1>
+      <h1 className="about">about me</h1>
       <div className="about-image-wrapper">
         <div className="about-image"></div>
       </div>
@@ -11,7 +11,7 @@ function About() {
       <div className="about-text">
         <p className="text">
           <div className="hey">
-            <strong>Hey there!</strong>
+            <strong>hey there!</strong>
           </div>
           <br></br>
           I'm from San Jose, California and I've recently graduated with a

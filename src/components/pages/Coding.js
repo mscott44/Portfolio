@@ -25,8 +25,10 @@ import React from "react";
 // import "../Gallery.css";
 import CardsGrid from "../cards/CardsGrid";
 import Grid from "@material-ui/core/Grid";
+import Typography from "@material-ui/core/Typography";
 import { makeStyles } from "@material-ui/styles";
 import "../cards/UIUX.css";
+import styled from "@emotion/styled";
 
 const useStyles = makeStyles({
   gridContainer: {
@@ -47,9 +49,12 @@ function Coding() {
     >
       <Grid item xs={12} sm={12} md={6}>
         <CardsGrid img="/images/otbCard.png" link="/" />
+        <Typography> On the Block</Typography>
       </Grid>
+
       <Grid item xs={12} sm={12} md={6}>
         <CardsGrid img="/images/Beaker.png" link="/" />
+        <Typography> Beaker</Typography>
       </Grid>
     </Grid>
   );
