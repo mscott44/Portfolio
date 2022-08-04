@@ -9,7 +9,7 @@ function Projects() {
   return (
     <div>
       <ProjectsSection />
-      <ImageSlider slides={SliderData} />
+      {/* <ImageSlider slides={SliderData} /> */}
     </div>
   );
 }

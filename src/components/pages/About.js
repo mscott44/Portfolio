@@ -3,7 +3,6 @@ import "../../App.css";
 function About() {
   return (
     <div className="about__container">
-      <h1 className="about">about me</h1>
       <div className="about-image-wrapper">
         <div className="about-image"></div>
       </div>

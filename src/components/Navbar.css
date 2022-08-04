@@ -44,7 +44,7 @@
 .nav-menu {
   display: grid;
   grid-template-columns: repeat(4, auto);
-  grid-gap: 10px;
+  grid-gap: 100px;
   list-style: none;
   text-align: center;
   width: 60vw;
@@ -144,7 +144,7 @@
   .nav-links-mobile {
     display: block;
     text-align: center;
-    margin: 2rem auto;
+    /* margin: 2rem auto; */
     border-radius: 4px;
     width: 80%;
     text-decoration: none;
