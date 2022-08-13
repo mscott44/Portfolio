@@ -177,6 +177,11 @@
  position: relative;
   /* max-width: 50%; */
 }
+/* #headr {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+} */
 @media only screen and (max-width: 1200px) {
  
   .projects-wrapper{

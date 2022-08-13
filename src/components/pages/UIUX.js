@@ -35,6 +35,7 @@ import CardsGrid from "../cards/CardsGrid";
 import Grid from "@material-ui/core/Grid";
 import { makeStyles } from "@material-ui/styles";
 import "../cards/UIUX.css";
+import Gallery2 from "../Gallery2";
 
 const useStyles = makeStyles({
   gridContainer: {
@@ -67,11 +68,35 @@ export default function UIUX() {
           <CardsGrid img="/images/plantfood.png" link="/uProjectFour" />
         </Grid>
       </Grid>
-      {/* <h1 className="headr" style={{ justifyContent: "center" }}>
+      <h1
+        className="headr"
+        style={{
+          justifyContent: "center",
+          alignItems: "center",
+          textAlign: "center",
+          color: "#7868e6",
+          fontWeight: "bold",
+          fontSize: "40px",
+        }}
+      >
         {" "}
-        more cool designs{" "}
+        personal design challenges{" "}
       </h1>
-      <p style={{ alignItems: "center" }}>just for fun</p> */}
+      <br></br>
+      <p
+        style={{
+          justifyContent: "center",
+          alignItems: "center",
+          textAlign: "center",
+          paddingBottom: "30px",
+          fontSize: "15px",
+        }}
+      >
+        I like to challenge my design skills whether it's designing something
+        completely new, or iterating on/making an exactly replica of something
+        that already exists{" "}
+      </p>
+      <Gallery2 />
     </div>
   );
 }
