@@ -5,6 +5,11 @@ const tileDatas = [
     // featured: true,
   },
   {
+    img: "images/userProf.png",
+    title: "",
+    // featured: true,
+  },
+  {
     img: "images/socialShare.png",
     title: "",
     // featured: true,
@@ -14,6 +19,7 @@ const tileDatas = [
     title: "",
     // featured: true,
   },
+
   {
     img: "images/countdownTimer.png",
     title: "",
