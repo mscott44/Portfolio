@@ -76,7 +76,7 @@ export default function UIUX() {
           textAlign: "center",
           color: "#7868e6",
           fontWeight: "bold",
-          fontSize: "40px",
+          fontSize: "50px",
         }}
       >
         {" "}
@@ -89,11 +89,13 @@ export default function UIUX() {
           alignItems: "center",
           textAlign: "center",
           paddingBottom: "30px",
-          fontSize: "15px",
+          paddingLeft: "80px",
+          paddingRight: "80px",
+          fontSize: "25px",
         }}
       >
         I like to challenge my design skills whether it's designing something
-        completely new, or iterating on/making an exactly replica of something
+        completely new, or iterating on/making an exact replica of something
         that already exists{" "}
       </p>
       <Gallery2 />

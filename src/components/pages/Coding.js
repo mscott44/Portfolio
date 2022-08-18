@@ -48,13 +48,38 @@ function Coding() {
       classname={classes.gridContainer}
     >
       <Grid item xs={12} sm={12} md={6}>
-        <CardsGrid img="/images/otbCard.png" link="/" />
-        <Typography> On the Block</Typography>
+        <CardsGrid
+          img="/images/otbCard.png"
+          link="https://ontheblock.vercel.app"
+        />
+        <Typography style={{ fontSize: "35px", color: "#d99014" }}>
+          {" "}
+          On the Block
+        </Typography>
+        <Typography>
+          {" "}
+          On The Block served as a platform for users to plan block parties by
+          choosing from different local small business’s. Used Figma and Marvel
+          to create preliminary prototypes and wire framing. Conducted
+          evaluations of our system by using Cognitive, Heuristic, Predictive,
+          Retrospective, and Think Aloud techniques
+        </Typography>
       </Grid>
 
       <Grid item xs={12} sm={12} md={6}>
-        <CardsGrid img="/images/Beaker.png" link="/" />
-        <Typography> Beaker</Typography>
+        <CardsGrid img="/images/Beaker.png" link="https://beaker.vercel.app" />
+        <Typography style={{ fontSize: "35px", color: "#1497d9" }}>
+          {" "}
+          Beaker
+        </Typography>
+        <Typography>
+          {" "}
+          Beaker was built in hopes of helping students and professors alike
+          connect and be apart of research projects that they may not have been
+          able to find on their own. In my main role as the Frontend Developer I
+          used the React library & Material UI framework. I also assisted with
+          backend functionalities using firebase as a database{" "}
+        </Typography>
       </Grid>
     </Grid>
   );
