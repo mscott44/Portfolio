@@ -21,27 +21,44 @@ import CancelIcon from "@mui/icons-material/Cancel";
 function Gallery() {
   const [model, setModel] = useState(false);
   const [tempimgT, setTempImgT] = useState("");
+  const [info, setInfo] = useState("");
 
   const getImg = (title) => {
     /* shows title warning when photo is clicked */
-    //   console.warn(title);
+       //console.warn(title);
     setTempImgT(title);
     setModel(true);
   };
+
+  const getInfo = (title) => {
+   // console.log(title)
+   setInfo(title)
+    setModel(true)
+
+  }
 
   return (
     <>
       <div className={model ? "model open" : "model"}>
         <img alt={tempimgT} src={tempimgT} />
         <CancelIcon onClick={() => setModel(false)} />
+        
+       
+        
       </div>
       <div className="gallery">
         {tileData.map((image) => (
           <div
             className="pics"
             key={image.img}
+           
             onClick={() => getImg(image.img)}
+            
           >
+
+         
+<p className="title"> {image.title} </p>
+           
             <img
               alt={image.title}
               src={image.img}
@@ -49,7 +66,9 @@ function Gallery() {
             ></img>
           </div>
         ))}
+       
       </div>
+     
     </>
   );
 }

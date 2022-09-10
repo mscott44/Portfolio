@@ -86,3 +86,22 @@ margin-bottom: 12px;
 
 
 }
+
+.model h1{
+    width: auto;
+    max-width: 100%; 
+    height: auto; 
+    max-height: 100%;
+    display: block;
+    line-height: 0;
+    box-sizing: border-box;
+    padding: 20px 0 20px;
+    margin: 0 auto;
+    font-size: larger;
+    color:black
+  
+  }
+
+  .title{
+    color: rgb(148, 159, 68);
+  }

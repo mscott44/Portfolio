@@ -4,25 +4,67 @@ const tileData = [
     title: "Lacerate Movie Poster",
     // featured: true,
   },
-
+  {
+    img: "artImages/seaver2.jpeg",
+    title: "LMU Seaver Social",
+    // featured: true,
+  },
+  {
+    img: "artImages/seaver1.jpeg",
+    title: "LMU Seaver Social",
+   
+    // featured: true,
+  },
+  {
+    img: "artImages/seaver3.jpeg",
+    title: "LMU Seaver Social",
+    
+    // featured: true,
+  },
+  {
+    img: "artImages/seaver4.jpeg",
+    title: "LMU Seaver Social",
+    // featured: true,",
+    // featured: true,
+  },
+  {
+    img: "artImages/seaver5.jpeg",
+    title: "LMU Seaver Social",
+    // featured: true,
+  },
+  {
+    img: "artImages/seaver6.jpeg",
+    title: "LMU Seaver Social",
+    // featured: true,
+  },
+  {
+    img: "artImages/seaver7.jpeg",
+    title: "LMU Seaver Social",
+    // featured: true,
+  },
+  {
+    img: "artImages/seaver8.jpeg",
+    title: "LMU Seaver Social",
+    // featured: true,
+  },
   {
     img: "artImages/piano.jpeg",
-    title: "Lacerate Movie Poster",
+    title: "Bending Reality",
     // featured: true,
   },
   {
     img: "artImages/kobbe.png",
-    title: "Lacerate Movie Poster",
+    title: "Kobe",
     // featured: true,
   },
   {
     img: "artImages/colorism.jpeg",
-    title: "Lacerate Movie Poster",
+    title: "Colorism",
     // featured: true,
   },
   {
     img: "artImages/maeve.jpeg",
-    title: "Lacerate Movie Poster",
+    title: "Pencil Drawing",
     // featured: true,
   },
   {
@@ -32,22 +74,22 @@ const tileData = [
   },
   {
     img: "artImages/afwd.jpeg",
-    title: "Lacerate Movie Poster",
+    title: "Color Drawing",
     // featured: true,
   },
   {
     img: "artImages/muse.jpeg",
-    title: "Lacerate Movie Poster",
+    title: "Hercules Muse",
     // featured: true,
   },
   {
     img: "artImages/Pink_Panther.jpeg",
-    title: "Lacerate Movie Poster",
+    title: "Pink Panther",
     // featured: true,
   },
   {
     img: "artImages/crosscol.png",
-    title: "Lacerate Movie Poster",
+    title: "Cross Colours Collage",
     // featured: true,
   },
   {
@@ -57,7 +99,7 @@ const tileData = [
   },
   {
     img: "artImages/fosters.jpeg",
-    title: "Lacerate Movie Poster",
+    title: "Fosters Drawing",
     // featured: true,
   },
   {
@@ -73,7 +115,7 @@ const tileData = [
   },
   {
     img: "artImages/kelly.jpeg",
-    title: "Lacerate Movie Poster",
+    title: "Kelly Rowland Drawing",
     // featured: true,
   },
 
@@ -87,7 +129,7 @@ const tileData = [
   },
   {
     img: "artImages/advocate.png",
-    title: "Lacerate Movie Poster",
+    title: "Advocacy",
     // featured: true,
   },
   {
