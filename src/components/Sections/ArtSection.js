@@ -10,7 +10,7 @@ function ArtSection() {
       <p style={{ fontSize: "20px" }}> I specialize in creativity!</p>
       <p style={{ fontSize: "10px" }}>
         {" "}
-        Photoshop, Illustrator, Procreate, Hand Drawings, Photography, Corel
+        Photoshop, Illustrator, Procreate, Hand Drawings, Canva, Photography, Corel
       </p>
       <div className="buttons-container">
         <div className="main-btns">

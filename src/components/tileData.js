@@ -42,14 +42,59 @@ const tileData = [
     title: "LMU Seaver Social",
     // featured: true,
   },
+  // {
+  //   img: "artImages/seaver8.jpeg",
+  //   title: "LMU Seaver Social",
+  //   // featured: true,
+  // },
   {
-    img: "artImages/seaver8.jpeg",
-    title: "LMU Seaver Social",
+    img: "artImages/alterego1.jpg",
+    title: "Alter Ego Shoot",
+    // featured: true,
+  },
+  {
+    img: "artImages/alterego2.jpg",
+    title: "Alter Ego Shoot",
+    // featured: true,
+  },
+  {
+    img: "artImages/alterego3.jpg",
+    title: "Alter Ego Shoot",
+    // featured: true,
+  },
+  {
+    img: "artImages/alterego4.jpg",
+    title: "Alter Ego Shoot",
+    // featured: true,
+  },
+  {
+    img: "artImages/hp1.jpg",
+    title: "Hair Project Shoot",
+    // featured: true,
+  },
+  {
+    img: "artImages/hp2.jpg",
+    title: "Hair Project Shoot",
+    // featured: true,
+  },
+  {
+    img: "artImages/hp3.jpg",
+    title: "Hair Project Shoot",
+    // featured: true,
+  },
+  {
+    img: "artImages/hp4.jpg",
+    title: "Hair Project Shoot",
     // featured: true,
   },
   {
     img: "artImages/piano.jpeg",
     title: "Bending Reality",
+    // featured: true,
+  },
+  {
+    img: "artImages/pandemic.jpeg",
+    title: "Low Lighting Shoot",
     // featured: true,
   },
   {
@@ -65,6 +110,11 @@ const tileData = [
   {
     img: "artImages/maeve.jpeg",
     title: "Pencil Drawing",
+    // featured: true,
+  },
+   {
+    img: "artImages/hungryman.JPG",
+    title: "Odd Placements Shoot",
     // featured: true,
   },
   {
@@ -90,6 +140,11 @@ const tileData = [
   {
     img: "artImages/crosscol.png",
     title: "Cross Colours Collage",
+    // featured: true,
+  },
+  {
+    img: "artImages/sunset.jpeg",
+    title: "Sunset Shoot",
     // featured: true,
   },
   {
@@ -128,6 +183,10 @@ const tileData = [
     title: "Vogue Cover",
   },
   {
+    img: "artImages/BirdofParadise.JPG",
+    title: "Bird of Paradise Shoot",
+  },
+  {
     img: "artImages/advocate.png",
     title: "Advocacy",
     // featured: true,
@@ -135,6 +194,10 @@ const tileData = [
   {
     img: "artImages/uow.png",
     title: "UW Poster",
+  },
+  {
+    img: "artImages/paper.JPG",
+    title: "Reimagine paper shoot",
   },
 ];
 
