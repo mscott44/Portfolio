@@ -7,8 +7,8 @@ import { Button } from "../buttons/Button";
 function MainSection() {
   return (
     <div className="mainhome-container">
-      <h1> Moriah Scott </h1>
-      <p>Aspiring Innovator</p>
+      <h1> moriah, the innovator </h1>
+      <p>forstering creative solutions</p>
       <p1>website built using react</p1>
       <div className="main-btns">
         <Button
