@@ -68,7 +68,7 @@ export default function UIUX() {
           <CardsGrid img="/images/plantfood.png" link="/uProjectFour" />
         </Grid>
       </Grid>
-      <h1
+      {/* <h1
         className="headr"
         style={{
           justifyContent: "center",
@@ -98,7 +98,7 @@ export default function UIUX() {
         completely new, or iterating on/making an exact replica of something
         that already exists{" "}
       </p>
-      <Gallery2 />
+      <Gallery2 /> */}
     </div>
   );
 }
