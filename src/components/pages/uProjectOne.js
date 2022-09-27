@@ -94,9 +94,8 @@ function uProjectOne() {
             <br></br>
             <p6>
               {" "}
-              I created paper and digital wireframes to get a better idea a of
-              how I wanted my app to look. The paper wireframes were the first
-              step in making all the ideas I had in my head come to life{" "}
+              I created paper and digital wireframes to get a better idea of
+              how I wanted my app to look.{" "}
             </p6>
             <br></br>
             <img
@@ -225,7 +224,7 @@ function uProjectOne() {
             For accesibility considerations I took into account the color
             scheme, and made sure not to use color combinatiolns that would be
             difficult for those who are color blind. Additionally I labeled most
-            icons so users who are not used to this kind of app format is aware
+            icons so users who are not used to this kind of app format are aware
             of what the different features mean
           </p6>
           <br></br>
@@ -238,7 +237,7 @@ function uProjectOne() {
           <br></br>
           <p6>
             <strong>What I learned:</strong> I learned that even though you may
-            think everything about your design is super intuitive, there will
+            think everything about your design is intuitive, there will
             most likely be a feature that somebody else doesn't understand or
             has never seen before
           </p6>

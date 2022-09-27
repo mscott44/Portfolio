@@ -25,8 +25,8 @@ function uProjectFour() {
             </p2>
             <br></br>
             <p2>
-              <strong>Solution:</strong> Lets adress the importance of
-              suatainable living, and cost effective options for those who want
+              <strong>Solution:</strong> Lets address the importance of
+              sustainable living, and cost effective options for those who want
               to eat healthy and help the environment, even on a budget
             </p2>
           </div>

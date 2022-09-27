@@ -124,7 +124,7 @@ function uProjectThree() {
             <br></br>
             <p6 style={{ color: "black" }}>
               {" "}
-              igital wireframes came next on the agenda. The goal was to make
+              Digital wireframes came next on the agenda. The goal was to make
               the design very clean. There is one clear purpose of this
               app/website and it is to find a mentor. We want to make that
               process as easy as possible
