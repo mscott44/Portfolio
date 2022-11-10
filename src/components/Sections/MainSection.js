@@ -7,7 +7,7 @@ import { Button } from "../buttons/Button";
 function MainSection() {
   return (
     <div className="mainhome-container">
-      <h1> The Innovator </h1>
+      <h1 className="animate-character"> The Innovator </h1>
       <p>fostering creative solutions</p>
       <div className="main-btns">
         <Button
