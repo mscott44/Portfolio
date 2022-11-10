@@ -58,11 +58,7 @@ function Navbar() {
           </div>
           {/*if the window size is mobile click on the hambuger for active, if not proceed with regular nav menu*/}
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Home
-              </Link>
-            </li>
+            
             <li className="nav-item">
               <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
                 About

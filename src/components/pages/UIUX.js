@@ -55,6 +55,10 @@ export default function UIUX() {
         id="padding"
         classname={classes.gridContainer}
       >
+
+<Grid item xs={12} sm={12} md={6}>
+          <CardsGrid img="/images/cac.png" link="/culturally" />
+        </Grid>
         <Grid item xs={12} sm={12} md={6}>
           <CardsGrid img="/images/foodTruck3.png" link="/uProjectOne" />
         </Grid>

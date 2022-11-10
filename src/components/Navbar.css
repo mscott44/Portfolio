@@ -29,11 +29,13 @@
 }
 
 .navbar-title {
-  color: black;
+  color: #7868e6;
   font-weight: bold;
   cursor: pointer;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: lighter;
 }
 
 .fa-typo3 {
@@ -50,6 +52,7 @@
   width: 60vw;
   justify-content: end;
   margin-right: 2rem;
+  font-family: 'Poppins', sans-serif;
 }
 
 .nav-item {

@@ -6,7 +6,7 @@ import { Buttons } from "../buttons/Buttons";
 function ArtSection() {
   return (
     <div className="main-container">
-      <h1> My Art Gallery </h1>
+      <h1> Art Gallery </h1>
       <p style={{ fontSize: "20px" }}> I specialize in creativity!</p>
       <p style={{ fontSize: "10px" }}>
         {" "}

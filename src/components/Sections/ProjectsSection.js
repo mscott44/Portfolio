@@ -7,7 +7,7 @@ function ProjectsSection() {
   return (
     <div className="main-container">
       <h1> Projects </h1>
-      <p>Take a look!</p>
+      <p> take a peek at my creative process</p>
       <div className="buttons-container">
         <div className="main-btns">
           <Buttons
@@ -17,7 +17,7 @@ function ProjectsSection() {
             path="./uiux"
             id="button--black"
           >
-            UI/UX Projects
+            UI/UX 
           </Buttons>
         </div>
         <div className="main-btns">
@@ -27,7 +27,7 @@ function ProjectsSection() {
             buttonSize="btn--large"
             path="./coding"
           >
-            Coding Projects
+            Code
           </Buttons>
         </div>
       </div>
