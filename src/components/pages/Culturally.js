@@ -27,6 +27,24 @@ function Culturally() {
 <img src="images/CulturallyProjects.004.jpeg" width="1500"></img>
 <img src="images/CulturallyProjects.005.jpeg" width="1500"></img>
 <img src="images/CulturallyProjects.006.jpeg" width="1500"></img>
+<img src="images/CulturallyProjects.007.jpeg" width="1500"></img>
+<img src="images/CulturallyProjects.008.jpeg" width="1500"></img>
+<img src="images/CulturallyProjects.009.jpeg" width="1500"></img>
+<img src="images/CulturallyProjects.010.jpeg" width="1500"></img>
+<img src="images/CulturallyProjects.011.jpeg" width="1500"></img>
+<img src="images/CulturallyProjects.012.jpeg" width="1500"></img>
+<img src="images/CulturallyProjects.013.jpeg" width="1500"></img>
+<img src="images/CulturallyProjects.014.jpeg" width="1500"></img>
+<img src="images/CulturallyProjects.015.jpeg" width="1500"></img>
+<img src="images/CulturallyProjects.016.jpeg" width="1500"></img>
+<img src="images/CulturallyProjects.017.jpeg" width="1500"></img>
+<img src="images/CulturallyProjects.018.jpeg" width="1500"></img>
+<img src="images/CulturallyProjects.019.jpeg" width="1500"></img>
+<img src="images/CulturallyProjects.021.jpeg" width="1500"></img>
+<img src="images/CulturallyProjects.022.jpeg" width="1500"></img>
+<img src="images/CulturallyProjects.024.jpeg" width="1500"></img>
+<img src="images/CulturallyProjects.025.jpeg" width="1500"></img>
+<img src="images/CulturallyProjects.026.jpeg" width="1500"></img>
      
         
         {/* <h4 style={{postions: "relative", float: "right"}}> High-fi Implementation</h4> */}
